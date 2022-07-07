@@ -18,5 +18,5 @@ const ImageEXP = () => (
 
   </>
 );
-
+ 
 export default ImageEXP;
