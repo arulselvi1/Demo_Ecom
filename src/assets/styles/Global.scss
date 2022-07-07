@@ -1,0 +1,71 @@
+@import "./Colors.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  /* font-size: $baseMobileFontSize;
+  line-height: $baseLineHeight;
+  font-weight: $baseFontWeight;
+  letter-spacing: $baseLetterSpacing; */
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:global {
+  #rrs-main {
+    min-height: 75vh;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  div[class^="Snackbar_snackbar-wrapper"] {
+    z-index: 1050;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  max-height: 100%;
+}
+
+picture {
+  width: 100%;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+a {
+  color: $navy;
+  text-decoration: none;
+}
